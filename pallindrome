@@ -1,0 +1,10 @@
+#check if a number is pallindrome or not
+input = 123
+num_str = str(input)
+print(num_str)
+rev_str = num_str[::-1]
+print(rev_str)
+if(num_str == rev_str):
+    print("True")
+else:
+    print("False")
